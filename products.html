@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Products &amp; Services | PEK Pharmaceuticals</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <!-- Material Symbols -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- Theme Configuration -->
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#135bec",
+              "background-light": "#f6f6f8",
+              "background-dark": "#101622",
+            },
+            fontFamily: {
+              display: ["Manrope", "sans-serif"],
+            },
+            borderRadius: {
+              DEFAULT: "0.25rem",
+              lg: "0.5rem",
+              xl: "0.75rem",
+              full: "9999px",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+        font-family: "Manrope", sans-serif;
+      }
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+      }
+    </style>
+  </head>
+  <body
+    class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 antialiased"
+  >
+    <!-- Top Navigation Bar -->
+    <header
+      class="sticky top-0 z-50 w-full bg-white/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-20">
+          <!-- Logo -->
+          <div class="flex items-center gap-3">
+            <div class="text-primary">
+              <svg
+                class="w-10 h-10"
+                fill="none"
+                viewbox="0 0 48 48"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M36.7273 44C33.9891 44 31.6043 39.8386 30.3636 33.69C29.123 39.8386 26.7382 44 24 44C21.2618 44 18.877 39.8386 17.6364 33.69C16.3957 39.8386 14.0109 44 11.2727 44C7.25611 44 4 35.0457 4 24C4 12.9543 7.25611 4 11.2727 4C14.0109 4 16.3957 8.16144 17.6364 14.31C18.877 8.16144 21.2618 4 24 4C26.7382 4 29.123 8.16144 30.3636 14.31C31.6043 8.16144 33.9891 4 36.7273 4C40.7439 4 44 12.9543 44 24C44 35.0457 40.7439 44 36.7273 44Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <span
+              class="text-xl font-extrabold tracking-tight text-slate-900 dark:text-white uppercase"
+              >PEK Pharmaceuticals</span
+            >
+          </div>
+          <!-- Desktop Nav -->
+          <nav class="hidden md:flex items-center gap-8">
+            <a
+              class="text-sm font-semibold text-slate-600 hover:text-primary dark:text-slate-300 dark:hover:text-primary transition-colors"
+              href="index.html"
+              >Home</a
+            >
+            <a
+              class="text-sm font-bold text-primary dark:text-primary"
+              href="products.html"
+              >Products</a
+            >
+            <a
+              class="text-sm font-semibold text-slate-600 hover:text-primary dark:text-slate-300 dark:hover:text-primary transition-colors"
+              href="contact.html"
+              >Contact Us</a
+            >
+          </nav>
+          <!-- Search & Inquiry -->
+          <div class="flex items-center gap-4">
+            <div
+              class="hidden lg:flex items-center bg-slate-100 dark:bg-slate-800 rounded-lg px-3 py-1.5 border border-slate-200 dark:border-slate-700"
+            >
+              <span class="material-symbols-outlined text-slate-400 text-lg"
+                >search</span
+              >
+              <input
+                class="bg-transparent border-none focus:ring-0 text-sm w-48 placeholder-slate-400"
+                placeholder="Search products..."
+                type="text"
+              />
+            </div>
+            <button
+              class="bg-primary text-white px-6 py-2.5 rounded-lg font-bold text-sm hover:bg-blue-700 transition-all shadow-lg shadow-primary/20"
+            >
+              Wholesale Inquiry
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- Hero Section -->
+      <section
+        class="relative h-[480px] w-full flex items-center overflow-hidden"
+      >
+        <div class="absolute inset-0 bg-slate-900">
+          <div
+            class="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/60 to-transparent z-10"
+          ></div>
+          <img
+            alt="Laboratory facility"
+            class="w-full h-full object-cover object-center opacity-60"
+            data-alt="Modern high-tech pharmaceutical laboratory interior"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuChISz7EtlBx8FhdWe_oWXynIBENm1WpgnLaF2uXRK0oODVYx39szaoyrdxjZ-rLqp8B7ULR1eYxN-iZvjIsWb_hTWUx_B4-KjUV5xYYRNKG7hJVZdj9z1p-dGbbJRgA0pmV8lav9pVPkrDWIbzStMJlsn4ykcLJQc3zVgSD2ighsG__VxQfuSPIt7FAGOVxVlZ9r8yfoo1lbNM0sxOkN16H8cAByzklGZIDGAWjXxvNIL5vk8jkXXsl7oErlbKT2PLH6nyYa6dCKw"
+          />
+        </div>
+        <div
+          class="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full"
+        >
+          <div class="max-w-2xl">
+            <span
+              class="inline-block px-4 py-1.5 rounded-full bg-primary/20 text-primary text-xs font-bold uppercase tracking-widest mb-6 border border-primary/30"
+            >
+              Reliable Healthcare Solutions
+            </span>
+            <h1
+              class="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-6"
+            >
+              Commitment to Excellence in Healthcare
+            </h1>
+            <p class="text-lg text-slate-300 mb-8 leading-relaxed">
+              PEK Pharmaceuticals is dedicated to providing high-quality
+              pharmaceutical products and reliable healthcare services across
+              Accra and the wider West African region.
+            </p>
+            <div class="flex gap-4">
+              <a
+                class="bg-primary text-white px-8 py-4 rounded-lg font-bold hover:bg-blue-700 transition-all"
+                href="#products"
+                >Explore Products</a
+              >
+              <a
+                class="bg-white/10 backdrop-blur-md text-white border border-white/20 px-8 py-4 rounded-lg font-bold hover:bg-white/20 transition-all"
+                href="#"
+                >Our Process</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Category Filter -->
+      <div
+        class="bg-white dark:bg-background-dark border-b border-slate-200 dark:border-slate-800 sticky top-20 z-40"
+      >
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex items-center gap-10 overflow-x-auto no-scrollbar">
+            <button
+              class="py-5 text-sm font-bold border-b-2 border-primary text-primary whitespace-nowrap"
+            >
+              All Solutions
+            </button>
+            <button
+              class="py-5 text-sm font-bold text-slate-500 hover:text-slate-900 dark:hover:text-white border-b-2 border-transparent transition-all whitespace-nowrap"
+            >
+              Pharmaceutical Products
+            </button>
+            <button
+              class="py-5 text-sm font-bold text-slate-500 hover:text-slate-900 dark:hover:text-white border-b-2 border-transparent transition-all whitespace-nowrap"
+            >
+              Healthcare Services
+            </button>
+            <button
+              class="py-5 text-sm font-bold text-slate-500 hover:text-slate-900 dark:hover:text-white border-b-2 border-transparent transition-all whitespace-nowrap"
+            >
+              R&amp;D Projects
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Products Section -->
+      <section class="py-20" id="products">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex justify-between items-end mb-12">
+            <div class="max-w-xl">
+              <h2
+                class="text-3xl font-extrabold text-slate-900 dark:text-white mb-4"
+              >
+                Pharmaceutical Product Lines
+              </h2>
+              <p class="text-slate-500 dark:text-slate-400">
+                Our range of medications is manufactured under strict
+                international standards to ensure efficacy and safety for
+                patients.
+              </p>
+            </div>
+            <a
+              class="hidden md:flex items-center gap-2 text-primary font-bold hover:gap-3 transition-all"
+              href="#"
+            >
+              Full Catalog
+              <span class="material-symbols-outlined">arrow_forward</span>
+            </a>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Product Card 1 -->
+            <div
+              class="group bg-white dark:bg-slate-900 rounded-xl overflow-hidden border border-slate-200 dark:border-slate-800 hover:shadow-xl transition-all"
+            >
+              <div class="h-64 overflow-hidden relative">
+                <img
+                  alt="Essential Medicines"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  data-alt="Rows of pharmaceutical boxes in a warehouse"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8dFiC1fk5Vi3y8NIBw7rVTSWbkA2prupqqg8KL_gdAABq4N48Bb539CCtzZ-vcHilrzqPY1CTjI2mBBXBsPl_AXRzKHbVpnp5cRwWmPFAMbNdpISJCEy8NYMuBSo16uxYisBgnWUf8Pig7vXqRNrYtaP7ZoinjISKYgJNYSNKGrO6qoVTkHCX5RYRMrX_o73GqbMnwz4Zl2bUmNo_8fdP9Amp6MO0hL-aTq8F18sJ28I6LqtV4qtjvow5P4ZrlnoF7sidDqSgxmM"
+                />
+                <div class="absolute top-4 left-4">
+                  <span
+                    class="bg-primary/90 text-white text-[10px] font-black uppercase px-2 py-1 rounded tracking-wider"
+                    >Top Seller</span
+                  >
+                </div>
+              </div>
+              <div class="p-8">
+                <h3
+                  class="text-xl font-bold mb-3 group-hover:text-primary transition-colors"
+                >
+                  Essential Medicines
+                </h3>
+                <p
+                  class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-6"
+                >
+                  Providing over-the-counter and high-quality prescription drugs
+                  for daily healthcare needs, including antibiotics, analgesics,
+                  and vitamins.
+                </p>
+                <a
+                  class="inline-flex items-center text-sm font-bold text-primary group-hover:underline"
+                  href="#"
+                >
+                  View Categories
+                  <span class="material-symbols-outlined ml-1 text-base"
+                    >chevron_right</span
+                  >
+                </a>
+              </div>
+            </div>
+            <!-- Product Card 2 -->
+            <div
+              class="group bg-white dark:bg-slate-900 rounded-xl overflow-hidden border border-slate-200 dark:border-slate-800 hover:shadow-xl transition-all"
+            >
+              <div class="h-64 overflow-hidden relative">
+                <img
+                  alt="Specialized Treatments"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  data-alt="Close up of medical laboratory scientist working"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCxN2toMIOq2xFBBJB0FauduzuYi28BzBQMDmb3h1XWrGD7976PY5qlFzZfbff7_QhyAi2uJUPyZOTFbCjiWHh51VO5WL6BTFV8g9s12v30vmRR7VXuyIRSyvUmQu4gQQKOLwpOg2xAD30IW2kGlsFbBWh7DrIrYqVUTiTYiYq_DVH-uNRsaPt1t5P-iWQDNOVWWm5PF-oIAub0al0vq2IwEQQgeGqaz1FTjnQ3O_riPi4sThBL0kHnVLubCRk2hRF4WHZ2L13f4g"
+                />
+              </div>
+              <div class="p-8">
+                <h3
+                  class="text-xl font-bold mb-3 group-hover:text-primary transition-colors"
+                >
+                  Specialized Treatments
+                </h3>
+                <p
+                  class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-6"
+                >
+                  Advanced therapeutic solutions focused on complex medical
+                  conditions, oncology, and chronic care management for
+                  long-term health.
+                </p>
+                <a
+                  class="inline-flex items-center text-sm font-bold text-primary group-hover:underline"
+                  href="#"
+                >
+                  View Details
+                  <span class="material-symbols-outlined ml-1 text-base"
+                    >chevron_right</span
+                  >
+                </a>
+              </div>
+            </div>
+            <!-- Product Card 3 -->
+            <div
+              class="group bg-white dark:bg-slate-900 rounded-xl overflow-hidden border border-slate-200 dark:border-slate-800 hover:shadow-xl transition-all"
+            >
+              <div class="h-64 overflow-hidden relative">
+                <img
+                  alt="Critical Care"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  data-alt="Intravenous medical equipment in a hospital setting"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgHpid7DMOJu1Qk-foHN8uHrKDZ2uAv10seRijrU5HAmYM5yMDjRw1GGy4RzktOeqj_T9WY9Mslciqi1JPX-pyIHFmKIkXI3zIMxgPJ-c1WUPU2ieAEHyhHCT9BYBmvSGPY-ezovuS37yV1ErkhozQULi8e2HTBwrZXx3LGJc-ZKNQOwzevd6LFw-6mXfRKiNFDcgtFUy7CKI_BL50iv74ixANCVjuJooygw86moYkqGddPYDCk5m_YZxEXDhNKuhnaoKbJkVLm_A"
+                />
+              </div>
+              <div class="p-8">
+                <h3
+                  class="text-xl font-bold mb-3 group-hover:text-primary transition-colors"
+                >
+                  Critical Care &amp; IVs
+                </h3>
+                <p
+                  class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-6"
+                >
+                  A specialized line of life-saving intravenous fluids and
+                  critical care medications designed for acute hospital
+                  environments.
+                </p>
+                <a
+                  class="inline-flex items-center text-sm font-bold text-primary group-hover:underline"
+                  href="#"
+                >
+                  View Catalog
+                  <span class="material-symbols-outlined ml-1 text-base"
+                    >chevron_right</span
+                  >
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Quality Assurance Callout -->
+      <section class="bg-primary py-16">
+        <div
+          class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white"
+        >
+          <div class="flex justify-center mb-6">
+            <span class="material-symbols-outlined text-6xl"
+              >verified_user</span
+            >
+          </div>
+          <h2 class="text-3xl font-extrabold mb-4">
+            Certified Quality, Trusted Globally
+          </h2>
+          <p
+            class="max-w-3xl mx-auto text-primary/10 text-lg opacity-90 mb-10 text-blue-100"
+          >
+            Our manufacturing plants and distribution centers are fully
+            compliant with FDA Ghana and international ISO 9001:2015 standards.
+            Every batch is tested for purity and potency.
+          </p>
+          <div
+            class="flex flex-wrap justify-center gap-12 opacity-80 grayscale invert"
+          >
+            <!-- Placeholder Logos (Icons as representations) -->
+            <div class="flex items-center gap-2 font-black text-xl">
+              <span class="material-symbols-outlined">health_and_safety</span>
+              GHANA FDA
+            </div>
+            <div class="flex items-center gap-2 font-black text-xl">
+              <span class="material-symbols-outlined">biotech</span> ISO 9001
+            </div>
+            <div class="flex items-center gap-2 font-black text-xl">
+              <span class="material-symbols-outlined">gpp_good</span> GMP
+              CERTIFIED
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Services Section -->
+      <section class="py-20 bg-slate-50 dark:bg-slate-900/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center max-w-2xl mx-auto mb-16">
+            <h2
+              class="text-3xl font-extrabold text-slate-900 dark:text-white mb-4"
+            >
+              Comprehensive Healthcare Services
+            </h2>
+            <p class="text-slate-500 dark:text-slate-400">
+              Beyond manufacturing, we provide end-to-end supply chain and
+              expert consulting for the West African medical sector.
+            </p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Service Card 1 -->
+            <div
+              class="flex items-start gap-6 p-8 bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-md transition-all"
+            >
+              <div class="bg-primary/10 text-primary p-4 rounded-xl">
+                <span class="material-symbols-outlined text-4xl"
+                  >local_shipping</span
+                >
+              </div>
+              <div>
+                <h3 class="text-xl font-bold mb-2">Wholesale Distribution</h3>
+                <p
+                  class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-4"
+                >
+                  Reliable logistics network across Ghana and neighboring
+                  regions, ensuring on-time delivery of temperature-sensitive
+                  medications.
+                </p>
+                <ul class="space-y-2 mb-6">
+                  <li
+                    class="flex items-center gap-2 text-xs font-semibold text-slate-600 dark:text-slate-300"
+                  >
+                    <span class="material-symbols-outlined text-primary text-sm"
+                      >check_circle</span
+                    >
+                    Cold Chain Logistics
+                  </li>
+                  <li
+                    class="flex items-center gap-2 text-xs font-semibold text-slate-600 dark:text-slate-300"
+                  >
+                    <span class="material-symbols-outlined text-primary text-sm"
+                      >check_circle</span
+                    >
+                    24/7 Monitoring
+                  </li>
+                </ul>
+                <button class="text-primary font-bold text-sm">
+                  Partner with Us →
+                </button>
+              </div>
+            </div>
+            <!-- Service Card 2 -->
+            <div
+              class="flex items-start gap-6 p-8 bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-md transition-all"
+            >
+              <div class="bg-primary/10 text-primary p-4 rounded-xl">
+                <span class="material-symbols-outlined text-4xl">science</span>
+              </div>
+              <div>
+                <h3 class="text-xl font-bold mb-2">
+                  Research &amp; Development
+                </h3>
+                <p
+                  class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-4"
+                >
+                  Investing in local innovation to develop affordable
+                  pharmaceutical formulations tailored to the specific needs of
+                  West African patients.
+                </p>
+                <ul class="space-y-2 mb-6">
+                  <li
+                    class="flex items-center gap-2 text-xs font-semibold text-slate-600 dark:text-slate-300"
+                  >
+                    <span class="material-symbols-outlined text-primary text-sm"
+                      >check_circle</span
+                    >
+                    Formulation Labs
+                  </li>
+                  <li
+                    class="flex items-center gap-2 text-xs font-semibold text-slate-600 dark:text-slate-300"
+                  >
+                    <span class="material-symbols-outlined text-primary text-sm"
+                      >check_circle</span
+                    >
+                    Clinical Trial Support
+                  </li>
+                </ul>
+                <button class="text-primary font-bold text-sm">
+                  Our Lab Capabilities →
+                </button>
+              </div>
+            </div>
+            <!-- Service Card 3 -->
+            <div
+              class="flex items-start gap-6 p-8 bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-md transition-all"
+            >
+              <div class="bg-primary/10 text-primary p-4 rounded-xl">
+                <span class="material-symbols-outlined text-4xl">gavel</span>
+              </div>
+              <div>
+                <h3 class="text-xl font-bold mb-2">Regulatory Consulting</h3>
+                <p
+                  class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-4"
+                >
+                  Navigating the regulatory landscape in Ghana can be complex.
+                  We offer expert guidance on FDA registrations and health
+                  policy compliance.
+                </p>
+                <button class="text-primary font-bold text-sm">
+                  Consultation Inquiry →
+                </button>
+              </div>
+            </div>
+            <!-- Service Card 4 -->
+            <div
+              class="flex items-start gap-6 p-8 bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-md transition-all"
+            >
+              <div class="bg-primary/10 text-primary p-4 rounded-xl">
+                <span class="material-symbols-outlined text-4xl"
+                  >ecg_heart</span
+                >
+              </div>
+              <div>
+                <h3 class="text-xl font-bold mb-2">
+                  Pharmacy Support Services
+                </h3>
+                <p
+                  class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-4"
+                >
+                  Empowering local retail pharmacies with inventory management
+                  software, professional training, and financial credit lines.
+                </p>
+                <button class="text-primary font-bold text-sm">
+                  Join Network →
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Final CTA / Inquiry Section -->
+      <section class="py-20">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div
+            class="bg-slate-900 rounded-2xl p-10 md:p-16 relative overflow-hidden text-center"
+          >
+            <div class="absolute top-0 right-0 p-8 opacity-10">
+              <span class="material-symbols-outlined text-[200px]"
+                >medication</span
+              >
+            </div>
+            <div class="relative z-10">
+              <h2 class="text-3xl md:text-4xl font-extrabold text-white mb-6">
+                Ready to improve healthcare accessibility?
+              </h2>
+              <p class="text-slate-400 mb-10 text-lg max-w-2xl mx-auto">
+                Whether you are a hospital administrator, pharmacy owner, or
+                international supplier, let's discuss how we can partner
+                together in Accra and beyond.
+              </p>
+              <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <button
+                  class="bg-primary text-white px-10 py-4 rounded-lg font-bold hover:scale-105 transition-transform"
+                >
+                  Send Inquiry
+                </button>
+                <button
+                  class="bg-transparent border border-slate-700 text-white px-10 py-4 rounded-lg font-bold hover:bg-slate-800 transition-all"
+                >
+                  Contact Sales
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer
+      class="bg-white dark:bg-background-dark border-t border-slate-200 dark:border-slate-800 py-16"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+          <div class="col-span-1 md:col-span-1">
+            <div class="flex items-center gap-3 mb-6">
+              <div class="text-primary">
+                <svg
+                  class="w-8 h-8"
+                  fill="none"
+                  viewbox="0 0 48 48"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M36.7273 44C33.9891 44 31.6043 39.8386 30.3636 33.69C29.123 39.8386 26.7382 44 24 44C21.2618 44 18.877 39.8386 17.6364 33.69C16.3957 39.8386 14.0109 44 11.2727 44C7.25611 44 4 35.0457 4 24C4 12.9543 7.25611 4 11.2727 4C14.0109 4 16.3957 8.16144 17.6364 14.31C18.877 8.16144 21.2618 4 24 4C26.7382 4 29.123 8.16144 30.3636 14.31C31.6043 8.16144 33.9891 4 36.7273 4C40.7439 4 44 12.9543 44 24C44 35.0457 40.7439 44 36.7273 44Z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </div>
+              <span
+                class="text-lg font-bold text-slate-900 dark:text-white uppercase tracking-tight"
+                >PEK Pharma</span
+              >
+            </div>
+            <p
+              class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed"
+            >
+              Leading the pharmaceutical revolution in West Africa with a focus
+              on trust, quality, and community health.
+            </p>
+          </div>
+          <div>
+            <h4 class="font-bold mb-6">Products</h4>
+            <ul class="space-y-4 text-sm text-slate-500 dark:text-slate-400">
+              <li>
+                <a class="hover:text-primary transition-colors" href="#"
+                  >Essential Medicines</a
+                >
+              </li>
+              <li>
+                <a class="hover:text-primary transition-colors" href="#"
+                  >Specialized Care</a
+                >
+              </li>
+              <li>
+                <a class="hover:text-primary transition-colors" href="#"
+                  >IV Fluids</a
+                >
+              </li>
+              <li>
+                <a class="hover:text-primary transition-colors" href="#"
+                  >OTC Products</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-bold mb-6">Company</h4>
+            <ul class="space-y-4 text-sm text-slate-500 dark:text-slate-400">
+              <li>
+                <a class="hover:text-primary transition-colors" href="#"
+                  >About PEK</a
+                >
+              </li>
+              <li>
+                <a class="hover:text-primary transition-colors" href="#"
+                  >Quality Control</a
+                >
+              </li>
+              <li>
+                <a class="hover:text-primary transition-colors" href="#"
+                  >Sustainability</a
+                >
+              </li>
+              <li>
+                <a class="hover:text-primary transition-colors" href="#"
+                  >Careers</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-bold mb-6">Location</h4>
+            <p
+              class="text-sm text-slate-500 dark:text-slate-400 mb-4"
+              data-location="Accra, Ghana"
+            >
+              No. 45 Industrial Way, North Ridge<br />
+              Accra, Ghana
+            </p>
+            <p class="text-sm font-bold text-slate-900 dark:text-white">
+              +233 (0) 30 123 4567<br />
+              info@pekpharma.com.gh
+            </p>
+          </div>
+        </div>
+        <div
+          class="pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-400 uppercase tracking-widest font-bold"
+        >
+          <p>© 2024 PEK Pharmaceuticals Ghana. All rights reserved.</p>
+          <div class="flex gap-8">
+            <a class="hover:text-primary" href="#">Privacy Policy</a>
+            <a class="hover:text-primary" href="#">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
